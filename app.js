@@ -1,4 +1,27 @@
 const fs = require('fs');
+
+function zeigeFahrradDaten(dateipfad) {
+    try {
+        const rawData = fs.readFileSync(dateipfad, 'utf-8');
+        const fahrraeder = JSON.parse(rawData);
+
+        // Kleine Änderung: Neuer Titel für die Abgabe
+        console.log("=== FAHRRAD-DATENBANK (AKTUELLER STAND) ===\n");
+
+        fahrraeder.forEach((fahrrad, index) => {
+            // Kleine Änderung: Ausgabe-Format angepasst
+            console.log(`[Eintrag ${index + 1}] ID: ${fahrrad.fahrrad_id} - ${fahrrad.typ} (${fahrrad.farbe})`);
+            console.log(`Preis: ${fahrrad.stundenpreis} €/Std. | Status: ${fahrrad.status}`);
+            console.log("----------------------------------------");
+        });
+
+    } catch (error) {
+        console.error("Fehler beim Lesen der Datei:", error.message);
+    }
+}
+
+zeigeFahrradDaten('fahrraeder.json');
+const fs = require('fs');
 const path = require('path');
 
 // Funktion zum Einlesen der Datei (Part 2)
