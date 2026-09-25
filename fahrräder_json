@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"modell": "Citybike Comfort",
+		"farbe": "Schwarz",
+		"ist_verfuegbar": true,
+		"preis_pro_stunde": 3.50
+	},
+	{
+		"id": 2,
+		"modell": "Mountainbike Pro",
+		"farbe": "Rot",
+		"ist_verfuegbar": false,
+		"preis_pro_stunde": 5.00
+	},
+	{
+		"id": 3,
+		"modell": "E-Bike Cruiser",
+		"farbe": "Blau",
+		"ist_verfuegbar": true,
+		"preis_pro_stunde": 7.50
+	},
+	{
+		"id": 4,
+		"modell": "Citybike Comfort",
+		"farbe": "Grün",
+		"ist_verfuegbar": true,
+		"preis_pro_stunde": 3.50
+	},
+	{
+		"id": 5,
+		"modell": "Trekkingbike Sport",
+		"farbe": "Silber",
+		"ist_verfuegbar": false,
+		"preis_pro_stunde": 4.50
+	},
+	{
+		"id": 6,
+		"modell": "E-Bike City",
+		"farbe": "Weiß",
+		"ist_verfuegbar": true,
+		"preis_pro_stunde": 7.00
+	},
+	{
+		"id": 7,
+		"modell": "Gravelbike Speed",
+		"farbe": "Schwarz",
+		"ist_verfuegbar": true,
+		"preis_pro_stunde": 6.00
+	},
+	{
+		"id": 8,
+		"modell": "Klapprad Compact",
+		"farbe": "Gelb",
+		"ist_verfuegbar": true,
+		"preis_pro_stunde": 2.50
+	},
+	{
+		"id": 9,
+		"modell": "Mountainbike Pro",
+		"farbe": "Grau",
+		"ist_verfuegbar": false,
+		"preis_pro_stunde": 5.00
+	},
+	{
+		"id": 10,
+		"modell": "E-Bike Cargo",
+		"farbe": "Orange",
+		"ist_verfuegbar": true,
+		"preis_pro_stunde": 9.00
+	}
+]
